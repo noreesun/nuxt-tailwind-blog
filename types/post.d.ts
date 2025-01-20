@@ -1,6 +1,4 @@
 // type และ interface เป็น function เดียวกัน ทำงานเหมือนกัน
-import { Title } from './../../nuxt3-demo/.nuxt/components.d';
-import { Link } from './../../nuxt3-demo/.nuxt/components.d';
 /*type Post = {
 
 }
@@ -10,7 +8,7 @@ interface Post {
 } 
 */
 
-type Post = {
+export type Post = {
     id: number
     title : {
         rendered : string
@@ -29,9 +27,6 @@ type Post = {
     aucthor : number
     _embedded : any
     modified : string
-
-
-    
 
 
 }
